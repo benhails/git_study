@@ -34,7 +34,6 @@ class Product(BaseModel):
     warehouse = pw.ForeignKeyField(Warehouse, backref='products')
     color = pw.CharField(null=True)
 
-
 # CODE FOR CHALLENGES
 
 # 2. Retrieve all stores and in python loop through them and print out their names
